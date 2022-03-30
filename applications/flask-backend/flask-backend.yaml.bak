@@ -11,7 +11,7 @@ infrastructure:
     spec:        
        kubernetes:
         cpu: 1000m
-        ram: 512Mi
+        ram: 256Mi
 configuration:
   start:
     command: flask run --host=0.0.0.0
